@@ -19,7 +19,7 @@ var data = {
       "name": "GÀ XÙ VÀNG",
       "price": 20000,
       "unit": "miếng",
-      "is_hot_product": true
+      "is_hot_product": false
     },
     {
       "id": 4,
@@ -117,7 +117,7 @@ var data = {
       "name": "NUGGET CÁ",
       "price": 12000,
       "unit": "phần",
-      "is_hot_product": false
+      "is_hot_product": true
     },
     {
       "id": 18,
