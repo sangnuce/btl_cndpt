@@ -1,0 +1,172 @@
+body {
+  background: #FFF79A;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  background: #ed1c24;
+}
+
+/* Header */
+.navbar {
+  background: #ed1c24;
+  border: none;
+}
+
+.btn-toggle {
+  background: #FF0;
+  color: #ed1c24;
+}
+
+.icon-bar {
+  background: #ed1c24;
+}
+
+.navbar a {
+  color: #FF0;
+}
+
+.navbar li a {
+  font-size: 14px;
+}
+
+.navbar li.active a, .navbar li:hover a {
+  background: #FF0;
+  color: #ed1c24;
+}
+
+.navbar li.active a {
+  font-weight: bold;
+}
+
+.search-form {
+  padding: 8px 0;
+}
+
+/* Slide */
+.carousel-control {
+  width: 5%;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+
+.carousel .item {
+  height: 375px;
+}
+
+.carousel .item img {
+  width: 100%;
+  background-size: cover;
+}
+
+/* Video */
+.home-video {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  padding: 10px 0;
+  background: #ed1c24;
+}
+
+.footer {
+  background: #FF0;
+  padding-right: 0;
+}
+
+.about {
+  padding: 15px;
+  color: #ed1c24;
+}
+
+.contact {
+  background: #ed1c24;
+  padding: 15px;
+}
+
+.contact legend {
+  color: #FF0;
+}
+
+#music-control {
+  margin: 10px;
+  border: 1px solid #ed1c24;
+}
+
+/* Products */
+.title {
+  color: #ed1c24;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 15px 0;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  background: #FF0;
+}
+
+#products {
+  margin-bottom: 15px;
+}
+
+.products .item {
+  margin-top: 15px;
+  background: #FFF;
+  border: 1px solid #ed1c24;
+  min-height: 250px;
+  position: relative;
+}
+
+.products .item .product-label {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.products .item .image {
+  height: 200px;
+  margin: 5px;
+}
+
+.products .item .image img {
+  max-width: 100%;
+  max-height: 200px;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+.products .item .image:hover img {
+  transform: scale(1.25);
+}
+
+.products .item .info {
+  padding: 15px 0;
+  background: #FF0;
+  position: relative;
+}
+
+.products .item .price {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  line-height: 50px;
+  background: url('../images/price.png') 0 0 no-repeat;
+  font-size: 18px;
+  color: #FFF;
+  text-align: left;
+}
+
+.products .item .name {
+  color: #ed1c24;
+  font-size: 20px;
+  font-weight: bold;
+}
